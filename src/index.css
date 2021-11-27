@@ -1,3 +1,23 @@
 body {
   margin: 0;
 }
+
+.marker-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.marker-btn:hover, .marker-btn:active, .marker-btn:focus {
+  background: rgba(166, 114, 176, 0.4);
+}
+
+.park-img {
+  max-width: 250px;
+  height: auto;
+}
+
+.mapboxgl-popup-content {
+  max-width: 450px;
+}
